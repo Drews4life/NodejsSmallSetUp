@@ -44,7 +44,7 @@ app.get("/", (req, res)=>{
     
     res.render("home.hbs", {
         name: "Andrew",
-        surname: "Zakharenkov",
+        surname: "Melnikoff",
         likes: ["Living", " University", " Programming"],
         pageTitle: `About Andrew`,
         welcomeMsg: "Hello, buddy"
